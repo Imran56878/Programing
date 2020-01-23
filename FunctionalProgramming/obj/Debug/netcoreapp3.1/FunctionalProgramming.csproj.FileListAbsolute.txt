@@ -1,0 +1,11 @@
+C:\Users\acer\source\repos\FunctionalProgramming\bin\Debug\netcoreapp3.1\FunctionalProgramming.exe
+C:\Users\acer\source\repos\FunctionalProgramming\bin\Debug\netcoreapp3.1\FunctionalProgramming.deps.json
+C:\Users\acer\source\repos\FunctionalProgramming\bin\Debug\netcoreapp3.1\FunctionalProgramming.runtimeconfig.json
+C:\Users\acer\source\repos\FunctionalProgramming\bin\Debug\netcoreapp3.1\FunctionalProgramming.runtimeconfig.dev.json
+C:\Users\acer\source\repos\FunctionalProgramming\bin\Debug\netcoreapp3.1\FunctionalProgramming.dll
+C:\Users\acer\source\repos\FunctionalProgramming\bin\Debug\netcoreapp3.1\FunctionalProgramming.pdb
+C:\Users\acer\source\repos\FunctionalProgramming\obj\Debug\netcoreapp3.1\FunctionalProgramming.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\FunctionalProgramming\obj\Debug\netcoreapp3.1\FunctionalProgramming.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\FunctionalProgramming\obj\Debug\netcoreapp3.1\FunctionalProgramming.AssemblyInfo.cs
+C:\Users\acer\source\repos\FunctionalProgramming\obj\Debug\netcoreapp3.1\FunctionalProgramming.dll
+C:\Users\acer\source\repos\FunctionalProgramming\obj\Debug\netcoreapp3.1\FunctionalProgramming.pdb
