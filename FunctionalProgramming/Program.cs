@@ -1,4 +1,5 @@
 ﻿using FunctionalProgramming.JunitTestingProgram;
+using FunctionalProgramming.LogicalProgram;
 using System;
 
 namespace FunctionalProgramming
@@ -28,6 +29,7 @@ namespace FunctionalProgramming
             Console.WriteLine("19: fib ");
             Console.WriteLine("20: Temprature conversion");
             Console.WriteLine("21: Binary String");
+            Console.WriteLine("22: String permutation :");
             Console.Write("Enter an option to execute : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -100,6 +102,11 @@ namespace FunctionalProgramming
                     break;
                 case 21:
                     ToBinaryString.toBinary();
+                    break;
+                case 22:
+                    Console.Write(" Enter a string :");
+                    string str = Utility.readString();
+                    StringPermutation.combString(str);
                     break;
 
                 default:
