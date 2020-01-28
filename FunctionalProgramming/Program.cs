@@ -1,6 +1,7 @@
 ﻿using FunctionalProgramming.JunitTestingProgram;
 using FunctionalProgramming.LogicalProgram;
 using System;
+using DayOfWeek = System.DayOfWeek;
 
 namespace FunctionalProgramming
 {
@@ -29,7 +30,10 @@ namespace FunctionalProgramming
             Console.WriteLine("19: fib ");
             Console.WriteLine("20: Temprature conversion");
             Console.WriteLine("21: Binary String");
-            Console.WriteLine("22: String permutation :");
+            Console.WriteLine("22: String permutation ");
+            Console.WriteLine("23: Monthly payment ");
+            Console.WriteLine("24: Nibbling program ");
+            Console.WriteLine("25: Day of week ");
             Console.Write("Enter an option to execute : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -108,7 +112,14 @@ namespace FunctionalProgramming
                     string str = Utility.readString();
                     StringPermutation.combString(str);
                     break;
-
+                case 23:
+                    MonthlyPayment.Payment();
+                    break;
+                case 24: BinaryNibbling.Nibbling();
+                    break;
+                case 25:
+                    DayWeek.Day1();
+                    break;
                 default:
                     Console.WriteLine("you have entered wrong choice");
                     break;
