@@ -1,5 +1,5 @@
 ﻿using FunctionalProgramming.JunitTestingProgram;
-using FunctionalProgramming.LogicalProgram;
+using FunctionalProgramming.LogicalPrograms;
 using System;
 using DayOfWeek = System.DayOfWeek;
 
@@ -34,6 +34,7 @@ namespace FunctionalProgramming
             Console.WriteLine("23: Monthly payment ");
             Console.WriteLine("24: Nibbling program ");
             Console.WriteLine("25: Day of week ");
+            Console.WriteLine("26: BinarySearch ");
             Console.Write("Enter an option to execute : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -119,6 +120,9 @@ namespace FunctionalProgramming
                     break;
                 case 25:
                     DayWeek.Day1();
+                    break;
+                case 26:
+                    BinaryStringSearch.BinSearch();
                     break;
                 default:
                     Console.WriteLine("you have entered wrong choice");
