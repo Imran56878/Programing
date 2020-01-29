@@ -35,6 +35,10 @@ namespace FunctionalProgramming
             Console.WriteLine("24: Nibbling program ");
             Console.WriteLine("25: Day of week ");
             Console.WriteLine("26: BinarySearch ");
+            Console.WriteLine("27: Insertion Sort ");
+            Console.WriteLine("28: Bubble Sort ");
+            Console.WriteLine("29: Merge Sort ");
+            Console.WriteLine("30: String Anagram ");
             Console.Write("Enter an option to execute : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -124,6 +128,19 @@ namespace FunctionalProgramming
                 case 26:
                     BinaryStringSearch.BinSearch();
                     break;
+                case 27:
+                    InsertionSort.insertionSort();
+                    break;
+                case 28:
+                    BubbleSort.bubbleSort();
+                    break;
+                case 29:
+                    MergeSort.mergeSort();
+                    break;
+                case 30:
+                    Anagram.StringAnagram();
+                    break;
+
                 default:
                     Console.WriteLine("you have entered wrong choice");
                     break;
