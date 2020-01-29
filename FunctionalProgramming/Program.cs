@@ -140,6 +140,9 @@ namespace FunctionalProgramming
                 case 30:
                     Anagram.StringAnagram();
                     break;
+                case 31:
+                    NprimeNumber.Nprime();
+                    break;
 
                 default:
                     Console.WriteLine("you have entered wrong choice");
