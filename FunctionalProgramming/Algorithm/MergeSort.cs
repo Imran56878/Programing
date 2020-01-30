@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FunctionalProgramming.LogicalPrograms
+namespace FunctionalProgramming.Algorithm 
 {
     class MergeSort
     {
@@ -93,7 +93,7 @@ namespace FunctionalProgramming.LogicalPrograms
                 }
                 else
                 {
-                    comp = left[lIndex].CompareTo(right[rIndex]);
+                    comp = (left[lIndex]).CompareTo(right[rIndex]);
                     if (comp > 0)
                     {
                         m[mIndex++] = right[rIndex++];

@@ -1,5 +1,5 @@
 ﻿using FunctionalProgramming.JunitTestingProgram;
-using FunctionalProgramming.LogicalPrograms;
+using FunctionalProgramming.Algorithm;
 using System;
 using DayOfWeek = System.DayOfWeek;
 
@@ -39,6 +39,8 @@ namespace FunctionalProgramming
             Console.WriteLine("28: Bubble Sort ");
             Console.WriteLine("29: Merge Sort ");
             Console.WriteLine("30: String Anagram ");
+            Console.WriteLine("31: N_Prime ");
+            Console.WriteLine("32: Prime Palindrom ");
             Console.Write("Enter an option to execute : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -142,6 +144,9 @@ namespace FunctionalProgramming
                     break;
                 case 31:
                     NprimeNumber.Nprime();
+                    break;
+                case 32:
+                    PrimePalindrom.Primepalindrom();
                     break;
 
                 default:

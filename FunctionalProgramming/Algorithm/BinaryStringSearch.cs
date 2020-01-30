@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace FunctionalProgramming.LogicalPrograms
+namespace FunctionalProgramming.Algorithm
 {
     class BinaryStringSearch
     {
@@ -12,7 +12,7 @@ namespace FunctionalProgramming.LogicalPrograms
             Console.WriteLine("Enter the key value ");
             string key = Utility.readString();
             string  path = @"E:\\pro\TestBin.txt";
-            string str = File.ReadAllText(path);
+            string str = File.ReadAllText(path); 
             string[] arr = str.Split(" ");
             // sorting in binary search
             Array.Sort(arr);

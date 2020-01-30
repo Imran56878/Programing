@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FunctionalProgramming.LogicalPrograms
+namespace FunctionalProgramming.Algorithm 
 {
     class StringPermutation
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FunctionalProgramming.LogicalPrograms
+namespace FunctionalProgramming.Algorithm 
 {
     class NprimeNumber
     {
@@ -13,7 +13,7 @@ namespace FunctionalProgramming.LogicalPrograms
             Console.WriteLine("Enter the range");
             int num = Utility.readInt();
             Console.Write(2+" ");
-            for (i=3;i<num;i++)
+            for (i=2;i<num;i++)
             {
                 for (j=2;j<i;j++)
                 {
