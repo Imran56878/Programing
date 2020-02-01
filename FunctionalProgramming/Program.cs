@@ -41,6 +41,10 @@ namespace FunctionalProgramming
             Console.WriteLine("30: String Anagram ");
             Console.WriteLine("31: N_Prime ");
             Console.WriteLine("32: Prime Palindrom ");
+            Console.WriteLine("33:Generic Bubble sort ");
+            Console.WriteLine("34: Regex program ");
+            Console.WriteLine("35: Generic Test Method ");
+            Console.WriteLine("36: Generic Test class ");
             Console.Write("Enter an option to execute : ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -148,6 +152,22 @@ namespace FunctionalProgramming
                 case 32:
                     PrimePalindrom.Primepalindrom();
                     break;
+                case 33:
+                    GenericBubble.BubbleMethod ();
+                    break ;
+                case 34:
+                    RegexProgram.RegularEx();
+                    break;
+                case 35:
+                    GenericMethodTest.MethodTest();
+                    break;
+                case 36:
+                    {
+                        GenericTestClass<string, int> ob = new GenericTestClass<string, int>();
+                        ob.display("Imran", 56878);
+                    }
+                    break;
+
 
                 default:
                     Console.WriteLine("you have entered wrong choice");

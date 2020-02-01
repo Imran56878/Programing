@@ -9,13 +9,13 @@ namespace FunctionalProgramming.Algorithm
     {
         public static void RegularEx()
         {
-            /*Console.WriteLine("Enter your full name ");
+            Console.WriteLine("Enter your full name ");
             string fname = Utility.readString();
             string mob = Utility.readString();
             string db = Utility.readString();
             string[] lname = fname.Split();
             Console.WriteLine("First name:"+lname[0]);
-            Console.WriteLine("Full name:"+fname );*/
+            Console.WriteLine("Full name:"+fname );
             string str = "Hello <<name>> , We have your full name as <<fullname>> in our system . Your contact number is " +
                          "91-xxxxxxxxxx . Please let me know in case of any clarification . Thank you BridgeLabz 01/01/2016";
             // string m = str.Replace("<<name>>",lname [0]);
