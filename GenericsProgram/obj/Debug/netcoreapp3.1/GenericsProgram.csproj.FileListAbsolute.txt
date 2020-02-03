@@ -1,0 +1,11 @@
+C:\Users\acer\source\repos\GenericsProgram\bin\Debug\netcoreapp3.1\GenericsProgram.exe
+C:\Users\acer\source\repos\GenericsProgram\bin\Debug\netcoreapp3.1\GenericsProgram.deps.json
+C:\Users\acer\source\repos\GenericsProgram\bin\Debug\netcoreapp3.1\GenericsProgram.runtimeconfig.json
+C:\Users\acer\source\repos\GenericsProgram\bin\Debug\netcoreapp3.1\GenericsProgram.runtimeconfig.dev.json
+C:\Users\acer\source\repos\GenericsProgram\bin\Debug\netcoreapp3.1\GenericsProgram.dll
+C:\Users\acer\source\repos\GenericsProgram\bin\Debug\netcoreapp3.1\GenericsProgram.pdb
+C:\Users\acer\source\repos\GenericsProgram\obj\Debug\netcoreapp3.1\GenericsProgram.csprojAssemblyReference.cache
+C:\Users\acer\source\repos\GenericsProgram\obj\Debug\netcoreapp3.1\GenericsProgram.AssemblyInfoInputs.cache
+C:\Users\acer\source\repos\GenericsProgram\obj\Debug\netcoreapp3.1\GenericsProgram.AssemblyInfo.cs
+C:\Users\acer\source\repos\GenericsProgram\obj\Debug\netcoreapp3.1\GenericsProgram.dll
+C:\Users\acer\source\repos\GenericsProgram\obj\Debug\netcoreapp3.1\GenericsProgram.pdb

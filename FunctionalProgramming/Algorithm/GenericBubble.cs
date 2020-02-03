@@ -15,7 +15,7 @@ namespace FunctionalProgramming.Algorithm
             var a = Console.ReadLine();
             if (a == "1")
             {
-                int[] arr = null;
+                int[] arr = new int[len];
                 for (int i = 0; i < len; i++)
                 {
                     arr[i] = Utility.readInt();
@@ -24,12 +24,12 @@ namespace FunctionalProgramming.Algorithm
             }
             else
             {
-                string[] arr = null;
+                string[] arr = new string [len];
                 for (int j = 0; j < len; j++)
                 {
                     arr[j] = Utility.readString();
                 }
-                string[] b = BubbleSort(arr);
+                string[] b = BubbleSort<string >(arr);
             }
            
            // t b = BubbleSort(arr1);
