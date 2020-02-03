@@ -4,20 +4,18 @@ using System.Text;
 
 namespace DataStructure
 {
-    class Node
+    public class Node
     {
-        public int  data;
+        public object   data;
         public Node next;
         public Node prev;
         public Node head;
-        UnOrdered1 ud = new UnOrdered1();
-        public Node(int num)
+        public Node(object num)
         {
             data = num;
             next = null;
-            prev = null;
-            head = null;
-            ud.Print(data );
+           
+            
         }
       }
 }
