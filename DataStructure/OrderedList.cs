@@ -4,12 +4,11 @@ using System.Text;
 
 namespace DataStructure
 {
-   public class UnOrdered1<T>
-
+    class OrderedList <T> where T:IComparable 
     {
-        public  Node head;
+        public Node head;
         private int count;
-        public UnOrdered1()
+        public OrderedList()
         {
             this.head = null;
             this.count = 0;
@@ -18,34 +17,57 @@ namespace DataStructure
         {
             get { return this.count == 0; }
         }
+        
         public void Add(T a)
-
         {
-            Node n = head;
+            Node current = head;
             Node temp = new Node(a);
-            if (n == null)
-
+            Node prev = null;
+            if (current == null)
             {
                 head = temp;
+               
             }
             else
             {
-                while (n.next != null)
-
+                T d1 = (T)current.data;
+                T d2 = a;
+                if (d1.CompareTo(d2)>=0)
                 {
-                    n = n.next;
+                    temp.next = current;
+                    head = temp;
                 }
-                n.next = temp;
+                else
+                {
+                    while(current.next!=null && d2.CompareTo(d1) > 0)
+                    {
+                        prev = current;
+                        current = current.next;
+                        d1 = (T)current.data;
+                    }
+                    if (d1.CompareTo(d2) >= 0)
+                    {
+                        prev.next = temp;
+                        temp.next = current;
+                    }
+                    else
+                    {
+                        current.next = temp;
+                    }
+                }
             }
             count++;
         }
-        public bool isEmpty()
+    
+        public void Show()
         {
-            return count == 0;
-        }
-        public int Size()
-        {
-            return this.count;
+            Node current = this.head;
+            while (current != null)
+
+            {
+                Console.Write(current.data + " ");
+                current = current.next;
+            }
         }
         public bool Search(T b)
 
@@ -64,16 +86,6 @@ namespace DataStructure
             return false ;
 
         }
-        public void Show()
-        {
-            Node current = this.head;
-            while (current != null)
-
-            {
-                Console.Write(current.data+" ");
-                current = current.next;
-            }
-        }
         public void Remove(T c)
 
         {
@@ -87,29 +99,29 @@ namespace DataStructure
             }
             else
             {
-                while (current != null)
+                while ( current !=null )
                 {
-                    if (!current.data.Equals(c))
+                    if (!current.data .Equals (c))
                     {
                         prev = current;
                         current = current.next;
                     }
-
-
-                    else if (current.data.Equals(c))
-                    {
-                        prev.next = current.next;
-                        current = current.next;
+                   
+                
+                 else if (current.data.Equals(c))
+                 {
+                    prev.next = current.next;
+                    current = current.next;
                         count--;
-                    }
-                    else
-                    {
+                 }
+                else
+                 {
                         current = current.next;
-
-                    }
+                     
+                 }
                 }
             }
-            Console.WriteLine("Wrong value");
+           // Console.WriteLine("Wrong value");
         }
         public int Index(T b)
 
@@ -141,9 +153,9 @@ namespace DataStructure
                 count--;
 
             }
-            else if( pos <= count)
+            else if (pos <= count)
             {
-                while (i < pos - 1 )
+                while (i < pos - 1)
                 {
                     current = current.next;
                     i++;
@@ -160,62 +172,12 @@ namespace DataStructure
                 }
 
             }
-            Console.WriteLine("You have entered wrong position ");
+           
+            Console.WriteLine("You have entered wrong position... ");
         }
-             public void insertPos(int pos ,T   item)
-         {
-            Node current = this.head;
-            Node prev=null;
-            int i = 1;
-            Node temp = new Node(item);
-            if (pos<=count)
-            {
-              
-            
-                while (i<pos)
-
-                {
-                    prev = current;
-                    current  = current .next;
-                    i++;
-                
-                }
-                    temp.next = current;
-                prev.next = temp;
-                count++;
-            }
-            
-            
+        public int Size()
+        {
+            return this.count;
         }
-           public  void Pop()
-            {              
-                Node current = this.head;
-                if (current == null)
-                {
-                    //this.head = current.next;
-                    Console.WriteLine("No element");
-                }
-                else if (current.next.Equals(null))
-                   {
-                    current = null;
-                   }
-                else if (!(current.next).Equals(null)) 
-                {
-                    while (current.next.next !=(null))
-                    {
-                        current = current.next;
-
-                    }
-
-                    current.next = null;
-
-                 
-
-                }
-
-
-            }
-        
     }
 }
-    

@@ -7,67 +7,31 @@ namespace DataStructure
         
         static void Main(string[] args)
         {
-            /* Console.WriteLine("Hello World!");
-             UnOrdered.SearchWord();*/
 
-            UnOrdered1<int> q = new UnOrdered1<int> ();
-            q.Add(5);
-            q.Add(6);
-            q.Add(7);
-            q.Add(8);
-            q.Add(9);
-            q.Add(10);
-            q.Add(11);
-            int count = q.Size();
-            Console.WriteLine("Count is :"+count );
-            Console.WriteLine("1: search operation ");
-            Console.WriteLine("2 :Remove ");
-            Console.WriteLine("3 :Show ");
-            Console.WriteLine("4 :PopPosition");
-            Console.WriteLine ("5 :Pop ");
-            Console.WriteLine("6 :Index ");
-            Console.Write("Enter an option :");
-            int option = int .Parse(Console.ReadLine());
-            switch (option)
+            Console.Write("Enter your choice : 1: Ordered  and 2:Unordered");
+            int option = int.Parse(Console .ReadLine ());
+            switch (option) 
             {
-                case 1:
-                    bool a = q.Search(7);
-                    Console.WriteLine(a);
-                    break;
-                case 2:
-                    Console.WriteLine("Enter the Element to be removed :");
-                    q.Remove(int.Parse(Console.ReadLine()));
-                    q.Show();
-                    break;
-                case 3:
-                    q.Show();
-                    break;
-                case 4:
-                    Console.WriteLine("Enter the position ");
-                    Console.WriteLine("Before pop operation");
-                    q.Show();
-                    Console.Write("\n After pop operation :");
-                    q.PopPosition(int.Parse(Console.ReadLine()));
-                    q.Show();
-                    break;
-                case 5:
-                    q.Pop();
-                    break;
-                case 6:
-                    Console.Write("Enter the number :");
-                    Console.WriteLine ("at index  :"+q.Index(int.Parse(Console.ReadLine())));
-                    break;
-
-                default :
+               
+             case 1:
+                    { 
+                     OrderedListTest li = new OrderedListTest();
+                     li.list();
+                    }
                     break;
              
+             case 2:
+                    { 
+                    UnorderedTest lm = new UnorderedTest();
+                    lm.Test2();
+                    }
+                    break;
+
+             default:
+                    Console.WriteLine("YOu have enterd wrong choice ");
+                    break;
 
             }
-            
-          
-          
-           
-           
-           }
+        }
     }
 }

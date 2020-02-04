@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\source\\repos\\FunctionalProgramming\\FunctionalProgramming.csproj": {}
+    "D:\\BridgeLabzPrograms\\FunctionalProgramming\\FunctionalProgramming.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\source\\repos\\FunctionalProgramming\\FunctionalProgramming.csproj": {
+    "D:\\BridgeLabzPrograms\\FunctionalProgramming\\FunctionalProgramming.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\FunctionalProgramming\\FunctionalProgramming.csproj",
+        "projectUniqueName": "D:\\BridgeLabzPrograms\\FunctionalProgramming\\FunctionalProgramming.csproj",
         "projectName": "FunctionalProgramming",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\FunctionalProgramming\\FunctionalProgramming.csproj",
-        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\FunctionalProgramming\\obj\\",
+        "projectPath": "D:\\BridgeLabzPrograms\\FunctionalProgramming\\FunctionalProgramming.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\BridgeLabzPrograms\\FunctionalProgramming\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

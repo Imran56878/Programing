@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\source\\repos\\GenericsProgram\\GenericsProgram.csproj": {}
+    "D:\\BridgeLabzPrograms\\GenericsProgram\\GenericsProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\source\\repos\\GenericsProgram\\GenericsProgram.csproj": {
+    "D:\\BridgeLabzPrograms\\GenericsProgram\\GenericsProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\GenericsProgram\\GenericsProgram.csproj",
+        "projectUniqueName": "D:\\BridgeLabzPrograms\\GenericsProgram\\GenericsProgram.csproj",
         "projectName": "GenericsProgram",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\GenericsProgram\\GenericsProgram.csproj",
-        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\GenericsProgram\\obj\\",
+        "projectPath": "D:\\BridgeLabzPrograms\\GenericsProgram\\GenericsProgram.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\BridgeLabzPrograms\\GenericsProgram\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
