@@ -48,5 +48,19 @@ namespace DataStructure
             }
             else return false;
         }
+        public T  peek()
+        {
+            // check for empty stack  
+            if (!isEmpty())
+            {
+                return (T)top.data;
+            }
+            else
+            {
+                //Console.WriteLine("Stack is empty");
+                throw new System.NotImplementedException("Stack is Empty");
+            }
+
+        }
     }
 }

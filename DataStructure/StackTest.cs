@@ -14,7 +14,8 @@ namespace DataStructure
             Console.WriteLine("2: Pop element ");
             Console.WriteLine("3: Display element ");
             Console.WriteLine("4: isEmpty ");
-            Console.Write("Enter the option");
+            Console.WriteLine("5: peek value ");
+            Console.Write("Enter the option :");
             int option = int.Parse(Console.ReadLine());
             switch (option ) {
                 case 1:
@@ -37,6 +38,17 @@ namespace DataStructure
                         Console.WriteLine("List is empty ");
                     }
                     else Console.WriteLine("List is not empty ");
+                    goto start;
+
+                case 5:
+                    try { 
+                    int m = l.peek();
+                    Console.WriteLine("peek value is :"+m);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Exception is :"+e.Message );
+                    }
                     goto start;
 
                 default:
