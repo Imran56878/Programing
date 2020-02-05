@@ -109,7 +109,7 @@ namespace DataStructure
                     }
                 }
             }
-            Console.WriteLine("Wrong value");
+           // Console.WriteLine("Wrong value");
         }
         public int Index(T b)
 
@@ -132,7 +132,6 @@ namespace DataStructure
         }
         public void PopPosition(int pos)
         {
-            // Console.WriteLine();
             int i = 1;
             Node current = this.head;
             if (pos == 1)
@@ -160,7 +159,7 @@ namespace DataStructure
                 }
 
             }
-            Console.WriteLine("You have entered wrong position ");
+          //  Console.WriteLine("You have entered wrong position ");
         }
              public void insertPos(int pos ,T   item)
          {

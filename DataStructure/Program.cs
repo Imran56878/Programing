@@ -7,8 +7,12 @@ namespace DataStructure
         
         static void Main(string[] args)
         {
-
-            Console.Write("Enter your choice : 1: Ordered  and 2:Unordered");
+          start:
+            Console.WriteLine("1: Ordered");
+            Console.WriteLine("2: Unordered");
+            Console.WriteLine("3: Stack");
+            Console.WriteLine("4: Parenthesis Balance");
+            Console.Write("Enter your choice : ");
             int option = int.Parse(Console .ReadLine ());
             switch (option) 
             {
@@ -26,6 +30,15 @@ namespace DataStructure
                     lm.Test2();
                     }
                     break;
+
+                case 3:
+                    StackTest st = new StackTest();
+                    st.testMethod();
+                    break;
+                case 4:
+                    BalanceParenthesis bl = new BalanceParenthesis();
+                    bl.Check();
+                    goto start;
 
              default:
                     Console.WriteLine("YOu have enterd wrong choice ");
