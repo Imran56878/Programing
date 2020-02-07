@@ -11,8 +11,11 @@ namespace ThreadPrograms
         {
             Thread obj1 = new Thread(Function1);
             Thread obj2 = new Thread(Function2);
+            Thread obj3 = new Thread(Function3);
             obj1.Start();
             obj2.Start();
+            obj2.Join();  // after completion of it it will pass the control to next object.
+            obj3.Start();
         }
         public static void Function1()
         {
@@ -26,6 +29,13 @@ namespace ThreadPrograms
             for (int j = 1; j <= 10; j++)
             {
                 Console.WriteLine("Function 2 is executed :" + j.ToString());
+            }
+        }
+        public static void Function3()
+        {
+            for (int k = 1; k <= 10; k++)
+            {
+                Console.WriteLine("Function 3 is executed :" + k.ToString());
             }
         }
     }
