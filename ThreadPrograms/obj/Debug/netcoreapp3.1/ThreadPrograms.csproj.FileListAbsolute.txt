@@ -1,0 +1,11 @@
+D:\BridgeLabzPrograms\ThreadPrograms\bin\Debug\netcoreapp3.1\ThreadPrograms.exe
+D:\BridgeLabzPrograms\ThreadPrograms\bin\Debug\netcoreapp3.1\ThreadPrograms.deps.json
+D:\BridgeLabzPrograms\ThreadPrograms\bin\Debug\netcoreapp3.1\ThreadPrograms.runtimeconfig.json
+D:\BridgeLabzPrograms\ThreadPrograms\bin\Debug\netcoreapp3.1\ThreadPrograms.runtimeconfig.dev.json
+D:\BridgeLabzPrograms\ThreadPrograms\bin\Debug\netcoreapp3.1\ThreadPrograms.dll
+D:\BridgeLabzPrograms\ThreadPrograms\bin\Debug\netcoreapp3.1\ThreadPrograms.pdb
+D:\BridgeLabzPrograms\ThreadPrograms\obj\Debug\netcoreapp3.1\ThreadPrograms.csprojAssemblyReference.cache
+D:\BridgeLabzPrograms\ThreadPrograms\obj\Debug\netcoreapp3.1\ThreadPrograms.AssemblyInfoInputs.cache
+D:\BridgeLabzPrograms\ThreadPrograms\obj\Debug\netcoreapp3.1\ThreadPrograms.AssemblyInfo.cs
+D:\BridgeLabzPrograms\ThreadPrograms\obj\Debug\netcoreapp3.1\ThreadPrograms.dll
+D:\BridgeLabzPrograms\ThreadPrograms\obj\Debug\netcoreapp3.1\ThreadPrograms.pdb

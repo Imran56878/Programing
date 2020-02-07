@@ -54,11 +54,10 @@ namespace DataStructure
                 default:
                     Console.WriteLine("You have entered  wrong option");
                   break;
+
             }
 
-           
-           
-           
+
         }
     }
 }
