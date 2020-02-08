@@ -13,6 +13,7 @@ namespace DataStructure
             Console.WriteLine("3: Stack");
             Console.WriteLine("4: Parenthesis Balance");
             Console.WriteLine("5: Banking");
+            Console.WriteLine("6: Palindrom");
             Console.Write("Enter your choice : ");
             int option = int.Parse(Console .ReadLine ());
             switch (option) 
@@ -43,6 +44,10 @@ namespace DataStructure
                 case 5:
                     Customer c = new Customer();
                     c.Check();
+                    goto start;
+                case 6:
+                    DequeuePalindrom p = new DequeuePalindrom();
+                    p.check();
                     goto start;
 
              default:
