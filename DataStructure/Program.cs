@@ -12,6 +12,7 @@ namespace DataStructure
             Console.WriteLine("2: Unordered");
             Console.WriteLine("3: Stack");
             Console.WriteLine("4: Parenthesis Balance");
+            Console.WriteLine("5: Banking");
             Console.Write("Enter your choice : ");
             int option = int.Parse(Console .ReadLine ());
             switch (option) 
@@ -38,6 +39,10 @@ namespace DataStructure
                 case 4:
                     BalanceParenthesis bl = new BalanceParenthesis();
                     bl.Check();
+                    goto start;
+                case 5:
+                    Customer c = new Customer();
+                    c.Check();
                     goto start;
 
              default:
