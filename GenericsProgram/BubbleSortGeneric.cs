@@ -1,10 +1,9 @@
 ﻿    using System;
     using System.Collections.Generic;
     using System.Text;
-
     namespace GenericsProgram
     {
-        class BubbleSortGeneric
+       public  class BubbleSortGeneric
         {
             public static void BubbleMethod()
             {
