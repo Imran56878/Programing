@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerNet", "LoggerNet\LoggerNet.csproj", "{03BB8E71-D6F3-4CD2-874E-6D030371BD91}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPrograms", "..\ThreadPrograms\ThreadPrograms.csproj", "{AAEAA934-18B3-40CF-9324-1733ABA80F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "..\UnitTestProject1\UnitTestProject1.csproj", "{836A6EB3-C3B8-46D3-A690-AF367FDCAAD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{03BB8E71-D6F3-4CD2-874E-6D030371BD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BB8E71-D6F3-4CD2-874E-6D030371BD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03BB8E71-D6F3-4CD2-874E-6D030371BD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAEAA934-18B3-40CF-9324-1733ABA80F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAEAA934-18B3-40CF-9324-1733ABA80F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAEAA934-18B3-40CF-9324-1733ABA80F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAEAA934-18B3-40CF-9324-1733ABA80F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836A6EB3-C3B8-46D3-A690-AF367FDCAAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836A6EB3-C3B8-46D3-A690-AF367FDCAAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836A6EB3-C3B8-46D3-A690-AF367FDCAAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836A6EB3-C3B8-46D3-A690-AF367FDCAAD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

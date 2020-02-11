@@ -13,9 +13,14 @@ namespace LoggerNet
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType );
         static void Main(string[] args)
         {
-            Console.Write("Hello!");
-            log.Error("This is my error message ");
-            Console.ReadLine();
+           // Add a = new Add();
+            Add.add();
+             Console.Write("Hello!");
+             log.Error("This is error message ");
+             log.Info("This is info message");
+            log.Debug("This id debug message");
+            log.Fatal("This is Fatal message");
+             Console.ReadLine();
         }
     }
 }

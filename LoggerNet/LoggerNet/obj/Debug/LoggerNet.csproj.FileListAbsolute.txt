@@ -17,3 +17,17 @@ C:\Users\admin\source\repos\LoggerNet\LoggerNet\bin\Debug\Nest.pdb
 C:\Users\admin\source\repos\LoggerNet\LoggerNet\bin\Debug\Nest.xml
 C:\Users\admin\source\repos\LoggerNet\LoggerNet\bin\Debug\System.Buffers.xml
 C:\Users\admin\source\repos\LoggerNet\LoggerNet\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\LoggerNet.exe.config
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\LoggerNet.exe
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\LoggerNet.pdb
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\System.Buffers.dll
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\Elasticsearch.Net.pdb
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\Elasticsearch.Net.xml
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\log4net.xml
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\Nest.pdb
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\Nest.xml
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\obj\Debug\LoggerNet.csprojAssemblyReference.cache
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\obj\Debug\LoggerNet.csproj.CopyComplete
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\obj\Debug\LoggerNet.exe
+D:\BridgeLabzPrograms\LoggerNet\LoggerNet\obj\Debug\LoggerNet.pdb
