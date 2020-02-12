@@ -11,3 +11,6 @@ D:\BridgeLabzPrograms\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssembly
 D:\BridgeLabzPrograms\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 D:\BridgeLabzPrograms\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 D:\BridgeLabzPrograms\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+D:\BridgeLabzPrograms\UnitTestProject1\bin\Debug\nunit.framework.dll
+D:\BridgeLabzPrograms\UnitTestProject1\bin\Debug\nunit.framework.pdb
+D:\BridgeLabzPrograms\UnitTestProject1\bin\Debug\nunit.framework.xml

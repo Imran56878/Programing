@@ -1,0 +1,13 @@
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapperTest.exe
+D:\BridgeLabzPrograms\AutoMapperTest\obj\Debug\netcoreapp3.1\AutoMapperTest.csprojAssemblyReference.cache
+D:\BridgeLabzPrograms\AutoMapperTest\obj\Debug\netcoreapp3.1\AutoMapperTest.AssemblyInfoInputs.cache
+D:\BridgeLabzPrograms\AutoMapperTest\obj\Debug\netcoreapp3.1\AutoMapperTest.AssemblyInfo.cs
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapperTest.deps.json
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapperTest.runtimeconfig.json
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapperTest.runtimeconfig.dev.json
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapperTest.dll
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapperTest.pdb
+D:\BridgeLabzPrograms\AutoMapperTest\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\BridgeLabzPrograms\AutoMapperTest\obj\Debug\netcoreapp3.1\AutoMapperTest.csproj.CopyComplete
+D:\BridgeLabzPrograms\AutoMapperTest\obj\Debug\netcoreapp3.1\AutoMapperTest.dll
+D:\BridgeLabzPrograms\AutoMapperTest\obj\Debug\netcoreapp3.1\AutoMapperTest.pdb
