@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructure", "..\DataStr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsProgram", "..\GenericsProgram\GenericsProgram.csproj", "{8C5B5B29-F0BF-4703-911A-C87C7723B39A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "E:\GitAllTest\ExceptionHandling\ExceptionHandling.csproj", "{1C90788A-4AB0-4EE2-8785-CF78F91EDB93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8C5B5B29-F0BF-4703-911A-C87C7723B39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5B5B29-F0BF-4703-911A-C87C7723B39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5B5B29-F0BF-4703-911A-C87C7723B39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C90788A-4AB0-4EE2-8785-CF78F91EDB93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C90788A-4AB0-4EE2-8785-CF78F91EDB93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C90788A-4AB0-4EE2-8785-CF78F91EDB93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C90788A-4AB0-4EE2-8785-CF78F91EDB93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
